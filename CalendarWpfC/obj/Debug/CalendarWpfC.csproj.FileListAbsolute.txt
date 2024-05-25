@@ -1,0 +1,15 @@
+C:\Users\Stipo6\source\repos\CalendarWpfC\CalendarWpfC\bin\Debug\CalendarWpfC.exe.config
+C:\Users\Stipo6\source\repos\CalendarWpfC\CalendarWpfC\bin\Debug\CalendarWpfC.exe
+C:\Users\Stipo6\source\repos\CalendarWpfC\CalendarWpfC\bin\Debug\CalendarWpfC.pdb
+C:\Users\Stipo6\source\repos\CalendarWpfC\CalendarWpfC\obj\Debug\CalendarWpfC.csproj.AssemblyReference.cache
+C:\Users\Stipo6\source\repos\CalendarWpfC\CalendarWpfC\obj\Debug\MainWindow.g.cs
+C:\Users\Stipo6\source\repos\CalendarWpfC\CalendarWpfC\obj\Debug\App.g.cs
+C:\Users\Stipo6\source\repos\CalendarWpfC\CalendarWpfC\obj\Debug\CalendarWpfC_MarkupCompile.cache
+C:\Users\Stipo6\source\repos\CalendarWpfC\CalendarWpfC\obj\Debug\CalendarWpfC_MarkupCompile.lref
+C:\Users\Stipo6\source\repos\CalendarWpfC\CalendarWpfC\obj\Debug\MainWindow.baml
+C:\Users\Stipo6\source\repos\CalendarWpfC\CalendarWpfC\obj\Debug\CalendarWpfC.g.resources
+C:\Users\Stipo6\source\repos\CalendarWpfC\CalendarWpfC\obj\Debug\CalendarWpfC.Properties.Resources.resources
+C:\Users\Stipo6\source\repos\CalendarWpfC\CalendarWpfC\obj\Debug\CalendarWpfC.csproj.GenerateResource.cache
+C:\Users\Stipo6\source\repos\CalendarWpfC\CalendarWpfC\obj\Debug\CalendarWpfC.csproj.CoreCompileInputs.cache
+C:\Users\Stipo6\source\repos\CalendarWpfC\CalendarWpfC\obj\Debug\CalendarWpfC.exe
+C:\Users\Stipo6\source\repos\CalendarWpfC\CalendarWpfC\obj\Debug\CalendarWpfC.pdb
