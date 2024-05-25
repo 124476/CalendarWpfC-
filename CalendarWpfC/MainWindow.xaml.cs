@@ -29,34 +29,38 @@ namespace CalendarWpfC
             Refresh();
         }
 
-        private void Refresh()
+        private void Refresh() // Ф-ция для обновления календаря
         {
             GridPanel.Children.Clear();
 
-            var dateStart = new DateTime(dateNow.Year, dateNow.Month, 1);
+            var dateStart = new DateTime(dateNow.Year, dateNow.Month, 1); // Первый день выбранного месяца
             var dateEnd = dateStart.AddMonths(1);
 
-            int dat = (int)(dateStart.DayOfWeek - 1);
+            int dat = (int)(dateStart.DayOfWeek - 1); // День недели
 
             if (dat == -1)
                 dat = 5;
 
             var date = new DateTime();
 
-            for (int i = 0; i < 7; i++)
+            for (int i = 0; i < 7; i++) // Заполнение заголовков колонок календаря
             {
                 TextBlock textDate = new TextBlock()
                 {
-                    Text = date.DayOfWeek.ToString().Substring(0, 2)
+                    Text = date.DayOfWeek.ToString().Substring(0, 2),
+                    HorizontalAlignment = HorizontalAlignment.Center,
                 };
                 GridPanel.Children.Add(textDate);
                 Grid.SetColumn(textDate, i);
             }
 
-            while (dateStart < dateEnd)
+            while (dateStart < dateEnd) // Заполнение дат календаря
             {
-                TextBlock textNow = new TextBlock();
-                textNow.Text = dateStart.Day.ToString();
+                TextBlock textNow = new TextBlock()
+                {
+                    Text = dateStart.Day.ToString(),
+                    HorizontalAlignment = HorizontalAlignment.Center,
+                };
                 GridPanel.Children.Add(textNow);
 
                 var dateN = dateStart.Day + dat - 1;
@@ -65,7 +69,7 @@ namespace CalendarWpfC
 
                 dateStart = dateStart.AddDays(1);
             }
-            TextDate.Text = dateNow.ToString("MMMM yyyy");
+            TextDate.Text = dateNow.ToString("MMMM yyyy"); // Вывод месяца и года выбранной даты
         }
 
         private void DownBtn_Click(object sender, RoutedEventArgs e)
